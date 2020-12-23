@@ -20,4 +20,9 @@
     color: #fff;
     text-align: start;
     margin-left: 41px;
+    font-style: normal;
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+    }
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 const Home = () => (
@@ -13,7 +14,8 @@ const Home = () => (
                 de Mateusz Wierzbicki: antforfigma@gmail.com      
             </p>
         </div>
-        <button className="btn btn-primary home-button">Começar</button>
+        <Link to="/find"><button className="btn btn-primary home-button">Começar</button></Link>
+        
 
     </div>
 
