@@ -3,8 +3,8 @@ import { Switch } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Navbar from './core/componentes/Navbar';
-import Find from './pages/Find';
 import Home from './pages/Home';
+import Search from './pages/Search';
 
 
 const Routes = () => (
@@ -14,11 +14,9 @@ const Routes = () => (
         <Route path="/" exact>
             <Home />
         </Route>
-        <Route path="/find">
-            <Find />
+        <Route path="/search">
+            <Search />
         </Route>
-
-
     </Switch>
     
     
